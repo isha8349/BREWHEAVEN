@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore BrewHaven's menu of specialty coffees, signature drinks, artisanal bakery items, and coworking packages.">
+    <title>Menu | BrewHaven</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lato.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="BrewHaven Logo">
+                </a>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero menu-hero">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Crafted with passion, served with love</p>
+            </div>
+        </section>
+
+        <!-- Menu Navigation -->
+        <section class="menu-navigation">
+            <div class="container">
+                <div class="menu-tabs">
+                    <button class="menu-tab active" data-category="brewed">Brewed Drinks</button>
+                    <button class="menu-tab" data-category="signature">Signature Specials</button>
+                    <button class="menu-tab" data-category="bakery">Bakery & Snacks</button>
+                    <button class="menu-tab" data-category="work">Work & Chill</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Content -->
+        <section class="menu-content">
+            <div class="container">
+                <!-- Brewed Drinks -->
+                <div class="menu-category active" id="brewed">
+                    <h2>Brewed Drinks</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/gc56999096f0ba4262ffff66a1a1c7f4caae0bd9b0385e34cafd4e10dc5af7fd8b1b4cc7f09be22074c93b8ac66a58e9edb91179b49afe6722611a06b31b39067_1280.jpg" alt="Cold Brew">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Cold Brew</h3>
+                                <p>Steeped for 24 hours, our smooth and refreshing cold brew is perfect for hot days.</p>
+                                <div class="menu-item-price">₹180</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/g27fae9c8d0bdf78de166759d173e5c046e3932d642b1d922181df6222640e09e8ce37fad62d70e58dc0c28d0741ae140984b5e28fa20bbc3a6207b95e85e4408_1280.jpg" alt="Espresso">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Espresso</h3>
+                                <p>A rich and intense shot of our signature espresso blend.</p>
+                                <div class="menu-item-price">₹120</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/gcf0da3bcd4b14fb3d1d72030135fc338dcb872a294bb27e8b783001dae484b7f0a408443aa717d2940b147bc95ee1be3c86f9d86a11ed6a205a3d0aae8822a30_1280.jpg" alt="Affogato">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Affogato</h3>
+                                <p>A scoop of vanilla bean ice cream drowned in a hot shot of espresso.</p>
+                                <div class="menu-item-price">₹210</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/ga5a328e5af3ca42d6526cec3a77065ad29b91ff4445d4a35055be3c07173ab6a890ab4d3778eaa64fa90d64f97b31bb2fa622f4de79079cd668cf9ae12afd595_1280.jpg" alt="Nitro Coffee">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Nitro Coffee</h3>
+                                <p>Our cold brew infused with nitrogen for a creamy, stout-like texture.</p>
+                                <div class="menu-item-price">₹220</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Signature Specials -->
+                <div class="menu-category" id="signature">
+                    <h2>Signature Specials</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/ga5a328e5af3ca42d6526cec3a77065ad29b91ff4445d4a35055be3c07173ab6a890ab4d3778eaa64fa90d64f97b31bb2fa622f4de79079cd668cf9ae12afd595_1280.jpg" alt="Rose Cappuccino">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Rose Cappuccino</h3>
+                                <p>Our signature blend with a hint of rose essence, topped with edible rose petals.</p>
+                                <div class="menu-item-price">₹240</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/gc56999096f0ba4262ffff66a1a1c7f4caae0bd9b0385e34cafd4e10dc5af7fd8b1b4cc7f09be22074c93b8ac66a58e9edb91179b49afe6722611a06b31b39067_1280.jpg" alt="Filter Kaapi Fusion">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Filter Kaapi Fusion</h3>
+                                <p>Traditional South Indian filter coffee with a modern twist.</p>
+                                <div class="menu-item-price">₹190</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/gcf0da3bcd4b14fb3d1d72030135fc338dcb872a294bb27e8b783001dae484b7f0a408443aa717d2940b147bc95ee1be3c86f9d86a11ed6a205a3d0aae8822a30_1280.jpg" alt="Matcha Latte">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Matcha Latte</h3>
+                                <p>Creamy and smooth with premium ceremonial grade matcha.</p>
+                                <div class="menu-item-price">₹260</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/g27fae9c8d0bdf78de166759d173e5c046e3932d642b1d922181df6222640e09e8ce37fad62d70e58dc0c28d0741ae140984b5e28fa20bbc3a6207b95e85e4408_1280.jpg" alt="Cardamom Cold Brew">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Cardamom Cold Brew</h3>
+                                <p>Our signature cold brew infused with freshly ground cardamom.</p>
+                                <div class="menu-item-price">₹190</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bakery & Snacks -->
+                <div class="menu-category" id="bakery">
+                    <h2>Bakery & Snacks</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/ga45d05693ecb0a621310531c7119bd79b1e31663817a4194d1d1dfd3b2a685b9f0113bfc0481b31f74f0bf0ff1dfdedc643f7209601bfaad226cbe693623d511_1280.jpg" alt="Vegan Banana Bread">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Vegan Banana Bread</h3>
+                                <p>Moist banana bread made with organic flour and no animal products.</p>
+                                <div class="menu-item-price">₹160</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/g1489cffc00e64207c5d74b3a9ca3ad3af2bf5193a71c89e631df610ab34ef56390e5cecd402009874a83bd3a80ee2b586e0dfa991d5be4bf3cec51eb9f51e712_1280.jpg" alt="Croissants">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Artisanal Croissants</h3>
+                                <p>Buttery, flaky croissants baked fresh every morning.</p>
+                                <div class="menu-item-price">₹140</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/g318a812987273fbd7d4f0fef932bffef51ba27b5b2bdaae70e3143ffb28a07fde7b718d640d79a386760a85ad9e878bb53df36a7e5adc9d94deb4fd0e10979cd_1280.jpg" alt="Millet Cookies">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Millet Cookies</h3>
+                                <p>Healthy and crunchy cookies made with local millets and jaggery.</p>
+                                <div class="menu-item-price">₹120</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://pixabay.com/get/g34e1a7c27de40faa58aa50d6e66a5aa6c10e9b18b5116ffc1750f34a5a9bed7c44f8c0edd4c1b4cc6e88a961fb335862e68d4fdb46f4024ae3360205a2fc1171_1280.jpg" alt="Cheese Sandwich">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Grilled Cheese Sandwich</h3>
+                                <p>Artisanal sourdough bread with a blend of local cheeses.</p>
+                                <div class="menu-item-price">₹220</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work & Chill -->
+                <div class="menu-category" id="work">
+                    <h2>Work & Chill Packages</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item full-width">
+                            <div class="menu-item-image work-image">
+                                <img src="https://pixabay.com/get/g32ad9be0d073881c070d4aa525fcfcdf1c579123cea50276ebd13567f094899a36334555995147d29daac4f19bc5dfe531d40691ae8a10b71aaee24b39d7428b_1280.jpg" alt="Digital Nomad Package">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Digital Nomad Package</h3>
+                                <p>2 hours of guaranteed seating, high-speed WiFi, unlimited coffee refills, and a snack of your choice.</p>
+                                <div class="menu-item-price">₹450</div>
+                            </div>
+                        </div>
+                        <div class="menu-item full-width">
+                            <div class="menu-item-image work-image">
+                                <img src="https://pixabay.com/get/g8735da23f981992bfb4aba495dcdeb951502c266db80361897a9f4b119688d3e336e1c1684f04f2dab6bb42574b1436bb71809dde85e36472d7d336638b36862_1280.jpg" alt="Work Day Pass">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Work Day Pass</h3>
+                                <p>Full day access to our dedicated coworking space, 3 coffee drinks, lunch menu item, and high-speed WiFi.</p>
+                                <div class="menu-item-price">₹850</div>
+                            </div>
+                        </div>
+                        <div class="menu-item full-width">
+                            <div class="menu-item-image work-image">
+                                <img src="https://pixabay.com/get/gc26a9085eed56361c5b3bfe2bd13cc6a5ed159d9611d9dae964b5158700ccf15185430304e23417fc97e179918394b840ced82f292196a399801f1fce3ab9191_1280.jpg" alt="Meeting Room">
+                            </div>
+                            <div class="menu-item-details">
+                                <h3>Meeting Room Booking</h3>
+                                <p>Private meeting space for up to 6 people, coffee service, WiFi, and projector access for presentations.</p>
+                                <div class="menu-item-price">₹1200/hour</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diet Info -->
+        <section class="diet-info">
+            <div class="container">
+                <h2>Dietary Information</h2>
+                <div class="diet-grid">
+                    <div class="diet-item">
+                        <div class="diet-icon vegan-icon"></div>
+                        <h3>Vegan Options</h3>
+                        <p>We offer a variety of plant-based milks including almond, oat, soy, and coconut at no extra charge.</p>
+                    </div>
+                    <div class="diet-item">
+                        <div class="diet-icon gluten-icon"></div>
+                        <h3>Gluten-Free</h3>
+                        <p>Our millet cookies and select other items are gluten-free. Just ask your server for recommendations.</p>
+                    </div>
+                    <div class="diet-item">
+                        <div class="diet-icon organic-icon"></div>
+                        <h3>Organic Ingredients</h3>
+                        <p>We source organic ingredients whenever possible, supporting local farmers and sustainable practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile Café -->
+        <section class="mobile-cafe">
+            <div class="container">
+                <div class="mobile-cafe-content">
+                    <h2>Haven on Wheels</h2>
+                    <p>Bring the BrewHaven experience to your event with our mobile café service.</p>
+                    <p>Perfect for corporate events, weddings, festivals, and private celebrations.</p>
+                    <p>Our mobile setup includes:</p>
+                    <ul>
+                        <li>Full espresso bar with our signature drinks</li>
+                        <li>Trained baristas</li>
+                        <li>Customizable menu options</li>
+                        <li>Eco-friendly serving materials</li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Inquire Now</a>
+                </div>
+                <div class="mobile-cafe-image">
+                    <img src="https://pixabay.com/get/gc26a9085eed56361c5b3bfe2bd13cc6a5ed159d9611d9dae964b5158700ccf15185430304e23417fc97e179918394b840ced82f292196a399801f1fce3ab9191_1280.jpg" alt="Mobile Café Service">
+                </div>
+            </div>
+        </section>
+
+        <!-- Online Order CTA -->
+        <section class="order-cta">
+            <div class="container">
+                <h2>Preorder For Pickup</h2>
+                <p>Skip the line! Place your order online and have it ready when you arrive.</p>
+                <button class="btn-primary" id="open-order-modal">Order Now</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Order Modal (hidden by default) -->
+    <div class="modal" id="order-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Preorder For Pickup</h2>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="pickup-time">Pickup Time</label>
+                    <input type="time" id="pickup-time" name="pickup-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="order-details">Order Details</label>
+                    <textarea id="order-details" name="order-details" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.svg" alt="BrewHaven Logo">
+                    <p>Brew Bold. Live Warm.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/brewhaven.cafe" aria-label="Instagram" class="icon-instagram"></a>
+                        <a href="https://twitter.com/brewhavenindia" aria-label="Twitter" class="icon-twitter"></a>
+                        <a href="https://facebook.com/brewhaven" aria-label="Facebook" class="icon-facebook"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BrewHaven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

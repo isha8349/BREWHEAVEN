@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact BrewHaven café in Indore. Visit us, call, email, or send a message through our contact form.">
+    <title>Contact Us | BrewHaven</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lato.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="BrewHaven Logo">
+                </a>
+            </div>
+            <nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="page-hero contact-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you</p>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon location-icon"></div>
+                        <h3>Visit Us</h3>
+                        <p>27, Saket Nagar Main Road,<br>Indore, Madhya Pradesh</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon hours-icon"></div>
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Friday: 7am - 10pm<br>Saturday - Sunday: 8am - 11pm</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon phone-icon"></div>
+                        <h3>Call Us</h3>
+                        <p>Phone: <a href="tel:+919987123456">+91 99871 23456</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon email-icon"></div>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:hello@brewhaven.in">hello@brewhaven.in</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Map -->
+        <section class="contact-form-map">
+            <div class="container">
+                <div class="contact-columns">
+                    <div class="contact-form-column">
+                        <h2>Send Us a Message</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name">Your Name</label>
+                                <input type="text" id="contact-name" name="contact-name" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email Address</label>
+                                <input type="email" id="contact-email" name="contact-email" required>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-phone">Phone Number</label>
+                                <input type="tel" id="contact-phone" name="contact-phone">
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-subject">Subject</label>
+                                <select id="contact-subject" name="contact-subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="reservation">Reservation</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="career">Career Opportunity</option>
+                                    <option value="event">Event Inquiry</option>
+                                </select>
+                                <span class="error-message"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message">Your Message</label>
+                                <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+                                <span class="error-message"></span>
+                            </div>
+                            <button type="submit" class="btn-primary">Send Message</button>
+                            <div class="form-submission-message"></div>
+                        </form>
+                    </div>
+                    <div class="map-column">
+                        <h2>Find Us</h2>
+                        <div class="map-container">
+                            <div id="map" class="map"></div>
+                        </div>
+                        <div class="directions">
+                            <h3>Getting Here</h3>
+                            <p><strong>By Bus:</strong> Routes 12, 15, and 22 stop within a 2-minute walk.</p>
+                            <p><strong>By Car:</strong> Limited street parking is available. We recommend using the public parking lot on AB Road (5-minute walk).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media -->
+        <section class="social-media-section">
+            <div class="container">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media for daily updates, behind-the-scenes content, and special offers.</p>
+                <div class="social-media-links">
+                    <a href="https://instagram.com/brewhaven.cafe" class="social-media-link instagram" aria-label="Instagram">
+                        <span class="social-icon instagram-icon"></span>
+                        <span class="social-handle">@brewhaven.cafe</span>
+                    </a>
+                    <a href="https://twitter.com/brewhavenindia" class="social-media-link twitter" aria-label="Twitter">
+                        <span class="social-icon twitter-icon"></span>
+                        <span class="social-handle">@brewhavenindia</span>
+                    </a>
+                    <a href="https://facebook.com/brewhaven" class="social-media-link facebook" aria-label="Facebook">
+                        <span class="social-icon facebook-icon"></span>
+                        <span class="social-handle">@brewhaven</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Career Opportunities -->
+        <section class="career-section">
+            <div class="container">
+                <div class="career-content">
+                    <h2>Join Our Team</h2>
+                    <p>We're always looking for passionate, creative people to join the BrewHaven family. If you love coffee, community, and creating memorable experiences, we'd love to hear from you.</p>
+                    <h3>Current Openings:</h3>
+                    <ul class="career-list">
+                        <li>Barista (Full-time & Part-time)</li>
+                        <li>Kitchen Assistant (Part-time)</li>
+                        <li>Social Media Coordinator (Part-time)</li>
+                    </ul>
+                    <p>Even if you don't see a position that matches your skills, we welcome your resume for future opportunities.</p>
+                    <p>Send your resume and a cover letter to <a href="mailto:careers@brewhaven.in">careers@brewhaven.in</a></p>
+                </div>
+                <div class="career-image">
+                    <img src="https://pixabay.com/get/ga5a328e5af3ca42d6526cec3a77065ad29b91ff4445d4a35055be3c07173ab6a890ab4d3778eaa64fa90d64f97b31bb2fa622f4de79079cd668cf9ae12afd595_1280.jpg" alt="BrewHaven Team">
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-question">Do you take reservations?</button>
+                        <div class="faq-answer">
+                            <p>We don't take table reservations for regular visits, but we do accept reservations for events and large groups (8+ people). Please contact us at least 48 hours in advance for group bookings.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Is your café pet-friendly?</button>
+                        <div class="faq-answer">
+                            <p>Yes! Well-behaved pets are welcome in our outdoor seating area. We even have a special "Puppuccino" treat for dogs.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do you offer WiFi?</button>
+                        <div class="faq-answer">
+                            <p>Yes, we offer free high-speed WiFi to all our customers. The password is available at the counter.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Are your food items made in-house?</button>
+                        <div class="faq-answer">
+                            <p>Yes, all our bakery items and food offerings are made fresh in our kitchen every day. We pride ourselves on using locally sourced ingredients whenever possible.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">Do you cater for dietary restrictions?</button>
+                        <div class="faq-answer">
+                            <p>Absolutely! We offer vegan, gluten-free, and dairy-free options. Please inform our staff about any allergies or dietary restrictions when ordering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <h2>Join Our Community</h2>
+                <p>Subscribe to our newsletter for updates on new brews, events, and special offers.</p>
+                <form id="newsletter-form" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-primary">Subscribe</button>
+                    </div>
+                    <div class="form-message"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.svg" alt="BrewHaven Logo">
+                    <p>Brew Bold. Live Warm.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/brewhaven.cafe" aria-label="Instagram" class="icon-instagram"></a>
+                        <a href="https://twitter.com/brewhavenindia" aria-label="Twitter" class="icon-twitter"></a>
+                        <a href="https://facebook.com/brewhaven" aria-label="Facebook" class="icon-facebook"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BrewHaven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

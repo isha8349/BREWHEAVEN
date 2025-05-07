@@ -1,0 +1,117 @@
+1. Business Name
+Name: BrewHaven
+2. Business Overview
+Background: BrewHaven was founded in 2021 in Indore
+by three college friends and coffee lovers: Aanya
+Mehta, Vihaan Rao, and Kabir Shah. They envisioned a
+cozy yet modern café that merges global coffee
+cultures with a uniquely Indian twist.
+Core Activities: Specialty coffee brewing, artisanal
+bakery, community events (e.g., open mics, brew
+workshops), mobile coffee services
+Key Values/Mission:
+Brew Bold. Live Warm.
+Sustainability, community, inclusivity, and quality over
+quantity
+3. Website Purpose
+Showcase the café’s unique offerings and vibe
+Share the founding story and values
+Enable product and event booking
+Provide customer support
+
+Build a loyal community of coffee lovers
+4. Target Audience
+Ideal Customers:
+Age: 18–35
+Interests: Coffee culture, sustainable living,
+books/music, co-working
+Behavior: Enjoys experiences, likely to try new flavors,
+shares on social media
+Segments:
+College students & young professionals
+Health-conscious customers (offer alt-milk & organic
+brews)
+Remote workers/digital nomads
+Local coffee explorers
+5. Products/Services Offered
+Categories:
+Brewed Drinks: Cold Brew, Espresso, Affogato, Nitro
+Coffee
+
+Signature Specials: Rose Cappuccino, Filter Kaapi
+Fusion, Matcha Latte
+Bakery & Snacks: Vegan Banana Bread, Croissants,
+Millet Cookies
+Work & Chill: Coworking packages (WiFi + Coffee
+combos)
+Events & Mobile Café: Book “Haven on Wheels” for
+private/corporate events
+6. Website Features Required
+Homepage
+About Us
+Products/Services
+Contact Us
+Blog (Optional – Brew Talks: coffee culture,
+sustainability, recipes)
+Testimonials
+Careers Page
+7. Contact Information
+
+Phone: +91 99871 23456
+Email: hello@brewhaven.in
+Instagram: @brewhaven.cafe
+Twitter: @brewhavenindia
+Physical Address: 27, Saket Nagar Main Road,
+Indore, Madhya Pradesh
+8. Website Design Preferences
+Color Palette: Mocha brown, warm beige, forest green,
+soft white
+Font Style: Serif for headings (e.g., Playfair Display),
+Sans-serif for body (e.g., Lato or Poppins)
+Brand Vibe: Rustic yet modern, cozy, artisanal
+Inspiration Websites:
+https://www.vervecoffee.com
+https://www.bonvivantcafe.com
+9. Tools and Technology to Use
+Website Builder: WordPress or Webflow
+Languages/Frameworks: HTML, CSS, JavaScript;
+Bootstrap (for responsiveness)
+
+Hosting: Netlify or Bluehost
+Integrations: Instagram feed, Google Maps, Payment
+gateway
+10. Basic Website Structure (Wireframe)
+Homepage:
+Hero Banner with tagline & CTA
+Quick coffee menu
+Our story in a snippet
+Testimonials
+Upcoming events or blog previews
+About Us:
+Founders’ story
+Mission & vision
+Sustainability commitment
+Products/Services:
+Menu with photos
+Event booking form
+Mobile café info
+Contact Us:
+
+Simple form
+Map & address
+Quick social links
+(Optional Pages):
+Blog (Brew Talks)
+Careers – "Join Our Tribe"
+Testimonials – Happy customers' quotes
+11. Sample Homepage Tagline
+“Pouring Passion, One Cup at a Time.”
+12. Extra Notes
+Online Payment: Yes – for pre-orders, bookings
+Focus Areas: Mobile-first design, SEO, fast loading
+Storytelling Tips: Use real customer stories, behind-thescenes shots
+Images: Blend real café photos with a few stock shots
+for consistency
+Language: English
+
+

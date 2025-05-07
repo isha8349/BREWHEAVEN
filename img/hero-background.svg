@@ -1,0 +1,93 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#8B5A2B" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="100" height="100" fill="url(#smallGrid)"/>
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#8B5A2B" stroke-width="1" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="800" fill="#F9F6F2"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  
+  <!-- Coffee beans scattered throughout -->
+  <g opacity="0.1">
+    <!-- Row 1 -->
+    <ellipse cx="100" cy="100" rx="15" ry="10" transform="rotate(30 100 100)" fill="#8B5A2B"/>
+    <ellipse cx="300" cy="150" rx="15" ry="10" transform="rotate(60 300 150)" fill="#8B5A2B"/>
+    <ellipse cx="500" cy="100" rx="15" ry="10" transform="rotate(45 500 100)" fill="#8B5A2B"/>
+    <ellipse cx="700" cy="150" rx="15" ry="10" transform="rotate(15 700 150)" fill="#8B5A2B"/>
+    <ellipse cx="900" cy="100" rx="15" ry="10" transform="rotate(75 900 100)" fill="#8B5A2B"/>
+    <ellipse cx="1100" cy="150" rx="15" ry="10" transform="rotate(40 1100 150)" fill="#8B5A2B"/>
+    
+    <!-- Row 2 -->
+    <ellipse cx="200" cy="250" rx="15" ry="10" transform="rotate(20 200 250)" fill="#8B5A2B"/>
+    <ellipse cx="400" cy="300" rx="15" ry="10" transform="rotate(50 400 300)" fill="#8B5A2B"/>
+    <ellipse cx="600" cy="250" rx="15" ry="10" transform="rotate(35 600 250)" fill="#8B5A2B"/>
+    <ellipse cx="800" cy="300" rx="15" ry="10" transform="rotate(65 800 300)" fill="#8B5A2B"/>
+    <ellipse cx="1000" cy="250" rx="15" ry="10" transform="rotate(25 1000 250)" fill="#8B5A2B"/>
+    
+    <!-- Row 3 -->
+    <ellipse cx="150" cy="400" rx="15" ry="10" transform="rotate(55 150 400)" fill="#8B5A2B"/>
+    <ellipse cx="350" cy="450" rx="15" ry="10" transform="rotate(15 350 450)" fill="#8B5A2B"/>
+    <ellipse cx="550" cy="400" rx="15" ry="10" transform="rotate(70 550 400)" fill="#8B5A2B"/>
+    <ellipse cx="750" cy="450" rx="15" ry="10" transform="rotate(40 750 450)" fill="#8B5A2B"/>
+    <ellipse cx="950" cy="400" rx="15" ry="10" transform="rotate(10 950 400)" fill="#8B5A2B"/>
+    <ellipse cx="1150" cy="450" rx="15" ry="10" transform="rotate(60 1150 450)" fill="#8B5A2B"/>
+    
+    <!-- Row 4 -->
+    <ellipse cx="100" cy="550" rx="15" ry="10" transform="rotate(30 100 550)" fill="#8B5A2B"/>
+    <ellipse cx="300" cy="600" rx="15" ry="10" transform="rotate(50 300 600)" fill="#8B5A2B"/>
+    <ellipse cx="500" cy="550" rx="15" ry="10" transform="rotate(20 500 550)" fill="#8B5A2B"/>
+    <ellipse cx="700" cy="600" rx="15" ry="10" transform="rotate(70 700 600)" fill="#8B5A2B"/>
+    <ellipse cx="900" cy="550" rx="15" ry="10" transform="rotate(40 900 550)" fill="#8B5A2B"/>
+    <ellipse cx="1100" cy="600" rx="15" ry="10" transform="rotate(25 1100 600)" fill="#8B5A2B"/>
+    
+    <!-- Row 5 -->
+    <ellipse cx="200" cy="700" rx="15" ry="10" transform="rotate(60 200 700)" fill="#8B5A2B"/>
+    <ellipse cx="400" cy="750" rx="15" ry="10" transform="rotate(15 400 750)" fill="#8B5A2B"/>
+    <ellipse cx="600" cy="700" rx="15" ry="10" transform="rotate(45 600 700)" fill="#8B5A2B"/>
+    <ellipse cx="800" cy="750" rx="15" ry="10" transform="rotate(30 800 750)" fill="#8B5A2B"/>
+    <ellipse cx="1000" cy="700" rx="15" ry="10" transform="rotate(55 1000 700)" fill="#8B5A2B"/>
+  </g>
+  
+  <!-- Coffee cup illustration elements -->
+  <g opacity="0.15">
+    <!-- Cup 1 -->
+    <path d="M200 300 C 200 300, 180 300, 180 315 C 180 330, 195 340, 200 340 C 205 340, 220 330, 220 315 C 220 300, 200 300, 200 300 Z" fill="#2F4F4F"/>
+    <path d="M220 312 C 230 312, 235 320, 230 325 C 225 330, 220 325, 220 320" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+    
+    <!-- Cup 2 -->
+    <path d="M1000 500 C 1000 500, 980 500, 980 515 C 980 530, 995 540, 1000 540 C 1005 540, 1020 530, 1020 515 C 1020 500, 1000 500, 1000 500 Z" fill="#8B5A2B"/>
+    <path d="M1020 512 C 1030 512, 1035 520, 1030 525 C 1025 530, 1020 525, 1020 520" fill="none" stroke="#8B5A2B" stroke-width="2"/>
+    
+    <!-- Cup 3 -->
+    <path d="M300 650 C 300 650, 280 650, 280 665 C 280 680, 295 690, 300 690 C 305 690, 320 680, 320 665 C 320 650, 300 650, 300 650 Z" fill="#2F4F4F"/>
+    <path d="M320 662 C 330 662, 335 670, 330 675 C 325 680, 320 675, 320 670" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+  </g>
+  
+  <!-- Decorative coffee plant elements -->
+  <g opacity="0.2">
+    <!-- Plant 1 -->
+    <path d="M100 450 C 120 430, 140 450, 130 420 C 120 390, 150 380, 160 400" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+    <path d="M100 450 C 80 430, 60 450, 70 420 C 80 390, 50 380, 40 400" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+    <path d="M100 450 L 100 500" fill="none" stroke="#8B5A2B" stroke-width="2"/>
+    
+    <!-- Plant 2 -->
+    <path d="M1100 250 C 1120 230, 1140 250, 1130 220 C 1120 190, 1150 180, 1160 200" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+    <path d="M1100 250 C 1080 230, 1060 250, 1070 220 C 1080 190, 1050 180, 1040 200" fill="none" stroke="#2F4F4F" stroke-width="2"/>
+    <path d="M1100 250 L 1100 300" fill="none" stroke="#8B5A2B" stroke-width="2"/>
+  </g>
+  
+  <!-- Abstract coffee aroma waves -->
+  <g opacity="0.1">
+    <path d="M 0 200 Q 300 100, 600 200 Q 900 300, 1200 200" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+    <path d="M 0 350 Q 300 450, 600 350 Q 900 250, 1200 350" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+    <path d="M 0 500 Q 300 400, 600 500 Q 900 600, 1200 500" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+    <path d="M 0 650 Q 300 750, 600 650 Q 900 550, 1200 650" fill="none" stroke="#8B5A2B" stroke-width="3"/>
+  </g>
+</svg>
